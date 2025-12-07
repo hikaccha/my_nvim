@@ -1,7 +1,7 @@
 return {
   "stevearc/oil.nvim",
   -- アイコン表示に必要（オプションですが推奨）
-  dependencies = { "nvim-tree/nvim-web-devicons" },
+  dependencies = { "nvim-mini/mini.icons", opts = {} },
   
   -- 遅延読み込みを無効化（ディレクトリを開いた瞬間に起動させるため）
   lazy = false,
