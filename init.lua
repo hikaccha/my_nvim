@@ -20,3 +20,6 @@ vim.opt.relativenumber = true
 
 vim.opt.laststatus = 2
 vim.opt.statusline = "%l%L"
+
+vim.opt.clipboard = "unnamedplus"
+
